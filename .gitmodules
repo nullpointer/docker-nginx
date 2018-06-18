@@ -1,0 +1,3 @@
+[submodule "web/public"]
+	path = web/public
+	url = git@github.com:nullpointer/nullpointer.github.io.git
