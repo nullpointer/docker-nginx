@@ -1,5 +1,24 @@
 # docker-nginx
 
+```
+docker-nginx
+├── docker-compose.yml
+├── etc
+│   ├── nginx
+│   │   ├── default.conf
+│   │   └── default.template.conf
+│   └── ssl
+│       ├── cacert.pem
+│       ├── server.crt
+│       └── server.key
+└── web
+    └── public  
+        ├── css
+        ├── img
+        ├── js
+        └── index.html
+```
+
 ## Install docker compose
 
 ```bash
@@ -18,4 +37,10 @@ Replace server.crt, server.key and cacert.pem in directory `docker-nginx/etc/ssl
 
 ```bash
 $ docker-compose up
+```
+
+## Stop
+
+```bash
+$ docker-compose down
 ```
