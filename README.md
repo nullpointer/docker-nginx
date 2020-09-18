@@ -8,7 +8,7 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 ```
 ## Set web root
 
-Put web content to the directory `docker-niginx/web`
+Put static web content to the directory `docker-niginx/web/public`
 
 ## Set SSL for HTTPS
 
