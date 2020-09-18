@@ -26,7 +26,7 @@ $ sudo curl -L "https://github.com/docker/compose/releases/download/1.27.3/docke
 $ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-> Just use `docker-compose-Linux-x86_64` if you are on Linux-x86_64.
+> Just use [docker-compose-Linux-x86_64](docker-compose-Linux-x86_64) if you are on Linux-x86_64.
 
 ## Set web root
 
